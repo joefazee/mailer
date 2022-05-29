@@ -1,0 +1,48 @@
+{{define "subject"}} Welcome to our site {{end}}
+
+
+{{define "plainBody"}} 
+Plain body of the email
+Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+Eaque deserunt a itaque. Eos tenetur ipsum aperiam dignissimos, 
+
+totam dolorem sed tempore 
+quis, quidem rerum atque esse perspiciatis magni temporibus voluptatibus?
+{{end}}
+
+
+
+
+{{define "htmlBody"}} 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        .container{
+            max-width: 700px;
+            padding: 20px;
+            border: solid #CCC 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+    <h2> HTML body of the email</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+</p>
+<p>Eaque deserunt a itaque. Eos tenetur ipsum aperiam dignissimos, 
+</p>
+<p>totam dolorem sed tempore 
+    quis, quidem rerum atque esse perspiciatis magni temporibus voluptatibus?</p>
+    </div>
+    
+</body>
+</html>
+{{end}}
+
